@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Roll of the dice</string>
+    <string name="guess_the_secret_number">Guess the secret number!</string>
+    <string name="roll">Roll</string>
+</resources>
