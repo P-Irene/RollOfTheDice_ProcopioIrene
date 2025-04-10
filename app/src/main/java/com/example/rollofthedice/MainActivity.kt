@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         })
 
         fun showMessage(view : View){
-            //Log.d(TAG, "show")
             Toast.makeText(this, "Try again!", Toast.LENGTH_LONG).show()
         }
     }
