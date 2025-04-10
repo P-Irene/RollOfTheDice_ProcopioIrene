@@ -8,9 +8,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.media3.common.util.Log
-import com.google.firebase.crashlytics.buildtools.reloc.org.apache.commons.logging.Log
-import org.chromium.base.Log
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         fun showMessage(view : View){
-            Log.d(TAG, "show")
+            //Log.d(TAG, "show")
             Toast.makeText(this, "Try again!", Toast.LENGTH_LONG).show()
         }
     }
