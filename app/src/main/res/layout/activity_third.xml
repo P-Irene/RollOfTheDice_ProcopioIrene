@@ -5,6 +5,30 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F2E0D5"
     tools:context=".ThirdActivity">
 
+    <ImageView
+        android:id="@+id/imageViewActivityThird"
+        android:layout_width="227dp"
+        android:layout_height="246dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewActivityThird"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dices" />
+
+    <TextView
+        android:id="@+id/textViewActivityThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="TextView"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewActivityThird" />
 </androidx.constraintlayout.widget.ConstraintLayout>
