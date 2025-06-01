@@ -1,4 +1,4 @@
-# Roll of dice
+# README.md
 
 ## Descrizione
 Quest'applicazione simula il lancio di un dado. L'utente ha la possibilità di vincere o perdere: se esce un numero pari vince, se esce un numerp dispari perde. L'applicazione è di default impostata in inglese ma, cambiando le impostazioni della lingua, è disponibile anche la versione in italiano.  
